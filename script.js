@@ -1,4 +1,6 @@
 function Greeting(name){
      return `Welcome ${name}`
 }
-Greeting("rahul raj")
+const result = Greeting("rahul raj");
+
+console.log(result)
